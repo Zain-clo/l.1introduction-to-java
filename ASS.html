@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="head"></h1>
+    <p id="0"></p>
+    <p id="1"></p>
+    <p id="2"></p>
+    <p id="3"></p>
+    <p id="4"></p>
+    <p id="5"></p>
+    <p id="6"></p>
+    
+    <script>
+        document.getElementById("head").innerHTML = "My Simple Calculator"
+        document.getElementById("0").innerText = "The first paragraph contains the sum of 10 and 90. The second paragraph contains the multiplication of 10 and 90. The third paragraph contains the division of 10 and 90. The fourth paragraph contains the subtraction from 10 and 90 . For the last paragraph it contains the reminder between 10 and 90.  "
+        var x = 10
+        var y =90
+        var sum = x + y
+        document.getElementById("1").innerText = sum
+        var multiple = x*y
+        document.getElementById("2").innerText = multiple
+        var divi = x/y
+        document.getElementById("3").innerText = divi
+        var sub = x-y
+        document.getElementById("4").innerText = sub
+        var reminder = x%y
+        document.getElementById("5").innerText = reminder
+        
+        
+    </script>
+</body>
+</html>
